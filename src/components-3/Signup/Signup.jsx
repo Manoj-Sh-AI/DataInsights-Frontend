@@ -15,10 +15,11 @@ function Signup() {
   const [Email, setEmail] = useState("");
   const [Password, setPassword] = useState("");
   const [Branch, setBranch] = useState("");
-  const { isAuthenticated, setIsAuthenticated } = useContext(Context);
+  const { isAuthenticated, setIsAuthenticated, loading, setIsLoading } = useContext(Context);
 
   const submitHandler = async (e) => {
     e.preventDefault();
+    setIsLoading(true);
     try {
       const { data } = await axios.post(
         `${server}/users/register`,
@@ -38,12 +39,16 @@ function Signup() {
 
       toast.success(data.message);
       setIsAuthenticated(true);
+      setIsLoading(false);
     } catch (error) {
-      toast.error("Some Error");
-      console.log(error);
+      toast.error(error.response.data.message);
       setIsAuthenticated(false);
+      setIsLoading(false);
     }
   };
+
+  if (isAuthenticated) return <Navigate to={"/"} />;
+  
 
   return (
     <div
@@ -131,7 +136,7 @@ function Signup() {
               placeholder="Enter branch name"
               required
             />
-            <button to="/Home" className="btn_2" type="submit">
+            <button disabled={loading} to="/Home" className="btn_2" type="submit">
               Sign Up
             </button>
           </form>

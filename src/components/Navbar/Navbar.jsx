@@ -1,10 +1,32 @@
 import React, { useEffect, useState, useContext } from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo.png";
-import { Link } from "react-router-dom";
-import { Context } from "../../main";
+import { Link, Navigate } from "react-router-dom";
+import { Context, server } from "../../main";
+import toast from "react-hot-toast";
+import axios from "axios";
+
 const Navbar = ({ setSticky }) => {
-  const { isAuthenticated, setIsAuthenticated } = useContext(Context);
+  const { isAuthenticated, setIsAuthenticated, loading, setIsLoading } = useContext(Context);
+
+  const logoutHandler = async () => {
+    setIsLoading(true);
+    try {
+      await axios.get(`${server}/users/logout`, {
+        withCredentials: true,
+      });
+
+      toast.success("Logged Out Successfully!");
+      setIsAuthenticated(false);
+      setIsLoading(false);
+    } catch (error) {
+      toast.error(error.response.data.message);
+      setIsAuthenticated(true);
+      setIsLoading(false);
+    }
+  };
+
+  if (!isAuthenticated) return <Navigate to={"/login"} />;
 
   const [sticky, setStickyState] = useState(true);
 
@@ -42,7 +64,12 @@ const Navbar = ({ setSticky }) => {
           <a href="#contact">Contact Us</a>
         </li>
         {isAuthenticated ? (
-          <button className="btn" style={{ fontSize: "15px" }}>
+          <button
+            className="btn"
+            disabled={loading}
+            onClick={logoutHandler}
+            style={{ fontSize: "15px" }}
+          >
             Log Out
           </button>
         ) : (

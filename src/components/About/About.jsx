@@ -1,19 +1,19 @@
 import React from 'react'
 import "./About.css"
-import about_img from "../../assets/visual.webp"
-import play_icon from "../../assets/play-icon.png"
+import about_img from "../../assets/istockphoto-1413286466-612x612.jpg"
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
     <div id="about" className='about' >
       <div className='about-left'>
         <img src={about_img} alt="" className='about-img'/>
-        <img src={play_icon} alt="" className='play-icon'/>
       </div>
       <div className='about-right'>
         <h3>[ ABOUT VISUALIZATION ]</h3>
-        <h2>Expanding Visualization by Using Power BI</h2>
-        <p>Power BI is a powerful business analytics tool developed by Microsoft that empowers organizations to visualize and analyze their data effectively. It allows users to connect to various data sources, transform raw data into meaningful insights, and create interactive dashboards and reports. With its user-friendly interface and robust features, Power BI enables users to explore data, uncover trends, and make data-driven decisions to drive business growth. Whether you're a small business or a large enterprise, Power BI provides the flexibility and scalability to meet your analytical needs and unlock the full potential of your data.</p>
+        <h2>ChatBot - Samvidhaan Saathi</h2>
+        <p>Introducing "Samvidhan Sahayak," your one-stop legal information chatbot! Feeling unsure about your rights under the Indian Constitution? Curious about the penalties for a specific offense in the Indian Penal Code? Samvidhan Sahayak is here to help. This user-friendly chatbot provides clear and concise answers to your queries on these foundational Indian laws. Simply type your question and Samvidhan Sahayak will search its comprehensive database to deliver relevant information, empowering you with legal knowledge. </p>
+        <Link class="about_btn" to={"https://apps.powerapps.com/play/e/default-5e6e043f-b14f-4f58-9b38-939a1393e404/a/de85482d-3781-4cf4-b63b-b9f594d18453?tenantId=5e6e043f-b14f-4f58-9b38-939a1393e404&hint=73c6c8d0-8028-4806-b86e-5b6293632d3d&sourcetime=1710611915265&hidenavbar=true#"}>Try Now</Link>
       </div>
     </div>
   )

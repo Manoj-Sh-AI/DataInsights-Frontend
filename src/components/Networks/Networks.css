@@ -54,3 +54,23 @@
 h3{
   font-size: 30px;
 }
+
+.network_btn {
+  background: #212121;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 2px solid transparent; /* Set border to transparent by default */
+  outline: 0;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Add transition for smooth animation */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.network_btn:hover {
+  background: transparent;
+  color: #212121;
+  border-color: #212121; /* Change border color on hover */
+}

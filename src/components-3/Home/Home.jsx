@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Hero from "../../components/Hero/Hero";
 import Title from '../../components/Title/Title';
@@ -8,11 +8,9 @@ import Networks from '../../components/Networks/Networks';
 import Testimonials from '../../components/Testimonials/Testimonials';
 import Contact from '../../components/Contact/Contact';
 import Footer from '../../components/Footer/Footer';
-import { Context } from '../../main';
 
 const Home = () => {
-    const { isAuthenticated, setIsAuthenticated } = useContext(Context);
-    console.log(isAuthenticated);
+    
     
     return (
         <div>
