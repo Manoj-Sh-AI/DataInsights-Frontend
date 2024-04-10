@@ -1,0 +1,54 @@
+.years {
+    margin: 50px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .year {
+    flex-basis: 31%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    transition: box-shadow 0.3s; /* Add transition for shadow effect */
+    text-align: center;
+  }
+  
+  .year:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  .year .new_btn {
+    background-color: #212EA0;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .year .new_btn:hover {
+    background-color: #fff;
+    color: #212EA0;
+    border-color: #212EA0;
+  }
+  
+  .year h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .year p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .Timeline{
+    background-color: yellow;
+  }
+  
+  .para{
+    margin-bottom: 10px;
+  }
+  

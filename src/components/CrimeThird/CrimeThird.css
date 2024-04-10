@@ -1,0 +1,63 @@
+.years {
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+  }
+  
+  .year {
+    flex-basis: 31%;
+    width: 30%;
+    margin-top: 3%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    transition: box-shadow 0.3s; /* Add transition for shadow effect */
+    text-align: center;
+    
+  }
+  
+  .year:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
+  .year h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .year p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .year .new_btn {
+    background-color: #212121;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .year .new_btn:hover {
+    background-color: #fff;
+    color: #212121;
+    border-color: #212121;
+  }
+  .card_img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .para{
+    padding-bottom: 15px;
+  }
+
+  .HeatMap{
+    background-color: orange;
+  }

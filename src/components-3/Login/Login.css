@@ -1,0 +1,137 @@
+.login.container {
+    overflow: hidden;
+}
+
+.logo {
+    width: 180px;
+}
+
+.card-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 20px;
+    margin: 30px auto;
+    max-width: 1000px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.card-left {
+    text-align: left;
+    padding: 20px;
+}
+
+.card-right {
+    text-align: left;
+    padding: 20px;
+}
+
+.login-col{
+    flex-basis: 48%;
+    color: #676767;
+    padding: 20px;
+}
+
+.login-col h3{
+    color: #000F38;
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login-col h3 img{
+    width: 35px;
+    margin-left: 10px;
+}
+
+.login-col p{
+    max-width: 450px;
+    list-style: 0.3;
+}
+
+.login-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.login-col ul li{
+    /* width: 25px; */
+    margin-right: 10px;
+}
+
+.login form input, .login form textarea {
+    display: block;
+    width: 100%;
+    background: #EBECFE;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    resize: none;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+
+.login-col span{
+    display: block;
+    margin: 20px 0;
+}
+
+.color-span{
+    color: #212EA0;
+}
+
+.icon{
+    padding: 0 20px;
+}
+
+form .btn_2{
+    background-color: #212EA0;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+}
+
+form .btn_2:hover {
+    background-color: #fff;
+    color: #212EA0;
+    border-color: #212EA0;
+}
+
+.btn_3{
+    background-color: white;
+    color: #676767;
+    padding: 10px 20px;
+    border: 2px solid #676767;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+}
+
+.btn_3:hover {
+    background-color: #676767;
+    color: white;
+    border-color: white;
+}
+
+.or{
+    text-align: center;
+}
+
+.login-col select {
+  display: inline-block;
+}
