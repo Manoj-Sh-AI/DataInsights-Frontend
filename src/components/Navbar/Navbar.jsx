@@ -46,22 +46,22 @@ const Navbar = ({ setSticky }) => {
       <img src={logo} className="logo" alt="" />
       <ul>
         <li>
-          <a href="#hero">Home</a>
+          <a href="/#hero">Home</a>
         </li>
         <li>
-          <a href="#features">Features</a>
+          <a href="/#features">Features</a>
         </li>
         <li>
-          <a href="#about">ChatBot</a>
+          <a href="/#about">ChatBot</a>
         </li>
         <li>
-          <a href="#network">Network</a>
+          <a href="/#network">Network</a>
         </li>
         <li>
-          <a href="#contributers">Contributors</a>
+          <a href="/#contributers">Contributors</a>
         </li>
         <li>
-          <a href="#contact">Contact Us</a>
+          <a href="/#contact">Contact Us</a>
         </li>
         {isAuthenticated ? (
           <button
