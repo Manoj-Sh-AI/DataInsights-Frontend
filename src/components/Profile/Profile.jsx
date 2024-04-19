@@ -8,7 +8,6 @@ import "./Profile.css";
 const Profile = () => {
 
   const { isAuthenticated, loading, user } = useContext(Context);
-  useEffect( ()=>{},[isAuthenticated])
   console.log(isAuthenticated);
   return (
     loading ? <Loader /> :(
