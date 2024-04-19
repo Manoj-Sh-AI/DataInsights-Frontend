@@ -5,7 +5,7 @@ import "./index.css";
 
 import { createContext } from "react";
 
-export const server = "http://localhost:4000/api/v1";
+export const server = "https://data-insights-backend.vercel.app";
 
 export const Context = createContext({ isAuthenticated: false });
 
