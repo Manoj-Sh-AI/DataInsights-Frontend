@@ -87,7 +87,6 @@ function Signup() {
           <br />
           <br />
           <br />
-          <br />
           <span>
             By creating an account, I agree to Crime Insights's{" "}
             <a className="color-span" href="#">
@@ -149,15 +148,22 @@ function Signup() {
           <br />
           <br />
           <br />
-          <li>..</li>
-          <li>..</li>
-          <li>..</li>
-          <li>..</li>
-          <li>..</li>
-          <li>..</li>
-          <li>..</li>
-          <li>..</li>
-          <li>..</li>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <p>.</p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
       </div>
     </div>

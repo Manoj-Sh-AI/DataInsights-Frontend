@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
 import { Context } from '../../main';
@@ -8,6 +8,7 @@ import "./Profile.css";
 const Profile = () => {
 
   const { isAuthenticated, loading, user } = useContext(Context);
+  useEffect( ()=>{},[isAuthenticated])
   console.log(isAuthenticated);
   return (
     loading ? <Loader /> :(

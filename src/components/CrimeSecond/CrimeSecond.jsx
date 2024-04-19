@@ -19,7 +19,7 @@ const CrimeSecond = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
             ipsa corporis sequi aliquid cupiditate reiciendis quas debitis
           </p>
-          <Link to="https://app.powerbi.com/reportEmbed?reportId=a29cdce9-e858-4d22-9031-41ef552869e6&autoAuth=true&ctid=5e6e043f-b14f-4f58-9b38-939a1393e404" className="new_btn">Open Dashboard</Link>
+          <a href="https://app.powerbi.com/reportEmbed?reportId=a29cdce9-e858-4d22-9031-41ef552869e6&autoAuth=true&ctid=5e6e043f-b14f-4f58-9b38-939a1393e404" target="_blank" rel="noopener noreferrer" class="new_btn" data-hidden-link>Open Dashboard</a>
           <p><br /></p>
         </div>
         <div className="year">
@@ -28,7 +28,7 @@ const CrimeSecond = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
             ipsa corporis sequi aliquid cupiditate reiciendis quas debitis
           </p>
-          <Link to="https://app.powerbi.com/reportEmbed?reportId=9add3c82-8f7f-455e-a957-127f99cacd89&autoAuth=true&ctid=5e6e043f-b14f-4f58-9b38-939a1393e404" className="new_btn">Open Dashboard</Link>
+          <a href="https://app.powerbi.com/reportEmbed?reportId=9add3c82-8f7f-455e-a957-127f99cacd89&autoAuth=true&ctid=5e6e043f-b14f-4f58-9b38-939a1393e404" target="_blank" rel="noopener noreferrer" class="new_btn" data-hidden-link>Open Dashboard</a>
           <p><br /></p>
         </div>
         <div className="year">
@@ -37,7 +37,7 @@ const CrimeSecond = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
             ipsa corporis sequi aliquid cupiditate reiciendis quas debitis
           </p>
-          <Link to="https://app.powerbi.com/reportEmbed?reportId=c40e8054-8079-46a7-9316-f39f56c5c061&autoAuth=true&ctid=5e6e043f-b14f-4f58-9b38-939a1393e404" className="new_btn">Open Dashboard</Link>
+          <a href="https://app.powerbi.com/reportEmbed?reportId=c40e8054-8079-46a7-9316-f39f56c5c061&autoAuth=true&ctid=5e6e043f-b14f-4f58-9b38-939a1393e404" target="_blank" rel="noopener noreferrer" class="new_btn" data-hidden-link>Open Dashboard</a>
           <p><br /></p>
         </div>
       </div>
