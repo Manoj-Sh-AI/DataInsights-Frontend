@@ -23,6 +23,7 @@ const Profile = () => {
       <br />
       <h2>Welcome Back, <a className='name'>{user?.Identification}</a> !</h2>
       <h3>{user?.Email}</h3>
+      <h3>{user?.Branch}</h3>
       <br />
       <br />
       <br />
