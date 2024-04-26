@@ -34,10 +34,7 @@ const Contact = () => {
       <div className="contact-col">
         <h3>Send Us a Message</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
-          eveniet ab veniam repellendus quos quaerat! Eveniet repellendus
-          perferendis ipsum minima facere atque ducimus, veniam ullam sequi nisi
-          ut officiis animi.
+          Don't hesitate to reach out with any questions or inquiries - we're here to help!,Ready to explore how our analytics can benefit your organization? Contact us today!.Let's start the conversation! Reach out for answers to your queries and discover the power of data-driven solutions.
         </p>
         <ul>
           <li>

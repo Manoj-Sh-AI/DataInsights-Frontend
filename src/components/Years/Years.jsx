@@ -8,10 +8,9 @@ const Years = () => {
       <h2>Please Selelect the <a className="Timeline">Timeline</a> of Crimes</h2>
       <div className="years">
         <div className="year">
-          <h3>Between (2009-2022)</h3>
+          <h3>Between (2009-2021)</h3>
           <p className="para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
-            ipsa corporis sequi aliquid cupiditate reiciendis quas debitis
+            Crime analysis ranging from 2009 to 2021, which contains different types of crimes.
           </p>
           <Link to="/FirstOption" className="new_btn">Learn More</Link>
           <p><br /></p>
@@ -19,8 +18,7 @@ const Years = () => {
         <div className="year">
           <h3>Crime Index of Only 2022</h3>
           <p className="para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
-            ipsa corporis sequi aliquid cupiditate reiciendis quas debitis
+            Crime analysis ranging of 2022, which contains different types of crimes.
           </p>
           <Link to="/SecondOption" className="new_btn">Learn More</Link>
           <p><br /></p>
@@ -28,8 +26,7 @@ const Years = () => {
         <div className="year">
           <h3>World Crime Index</h3>
           <p className="para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
-            ipsa corporis sequi aliquid cupiditate reiciendis quas debitis
+            World crime index ranging from the late 19th Century.
           </p>
           <Link to="/ThirdOption" className="new_btn">Learn More</Link>
           <p><br /></p>

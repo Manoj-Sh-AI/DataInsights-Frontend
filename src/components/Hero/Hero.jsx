@@ -7,7 +7,7 @@ const Hero = () => {
     <div id="hero" className='hero container'>
       <div className='hero-text'>
         <h1>We Ensure Better Analytics for a Better World</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus provident alias optio commodi, hic odit quia facilis harum veritatis voluptates impedit et deleniti aut id mollitia tenetur quasi obcaecati? Cumque?</p>
+        <p>Empowering progress through insightful data analysis, we pave the way for a brighter future. Our commitment to superior analytics drives positive change across industries and communities. Unlocking the potential of data, we strive for a world where informed decisions lead to impactful outcomes.</p>
         <Link to="/CrimeTimeline" className='btn'>Explore More <img src={dark_arrow} alt="" /></Link>
       </div>
     </div>
