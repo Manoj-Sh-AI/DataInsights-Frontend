@@ -10,7 +10,7 @@ const Years = () => {
         <div className="year">
           <h3>Between (2009-2021)</h3>
           <p className="para">
-            Crime analysis ranging from 2009 to 2021, which contains different types of crimes.
+            Crime analysis ranging from 2009 to 2022, which contains different types of crimes.
           </p>
           <Link to="/FirstOption" className="new_btn">Learn More</Link>
           <p><br /></p>
@@ -26,7 +26,7 @@ const Years = () => {
         <div className="year">
           <h3>World Crime Index</h3>
           <p className="para">
-            World crime index ranging from the late 19th Century.
+            World crime index ranging from 1990 to 2022 Century.
           </p>
           <Link to="/ThirdOption" className="new_btn">Learn More</Link>
           <p><br /></p>

@@ -68,7 +68,7 @@ const FirstCrime = () => {
         <div className="year">
           <h3>Absolute Crime Reported in India (2019-2022)</h3>
           <br />
-          <a href="https://app.powerbi.com/reportEmbed?reportId=f3990e94-ee3e-4be8-8e72-b5d439d41063&autoAuth=true&ctid=5e6e043f-b14f-4f58-9b38-939a1393e404" target="_blank" rel="noopener noreferrer" class="new_btn" data-hidden-link>Open Dashboard</a>
+          <a href="https://app.powerbi.com/reportEmbed?reportId=4a0d15d5-3626-464f-9426-ccd89f56fe45&autoAuth=true&ctid=5e6e043f-b14f-4f58-9b38-939a1393e404" target="_blank" rel="noopener noreferrer" class="new_btn" data-hidden-link>Open Dashboard</a>
           <p><br /></p>
         </div>
       </div>
