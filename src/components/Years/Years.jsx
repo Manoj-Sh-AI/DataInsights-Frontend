@@ -8,7 +8,7 @@ const Years = () => {
       <h2>Please Selelect the <a className="Timeline">Timeline</a> of Crimes</h2>
       <div className="years">
         <div className="year">
-          <h3>Between (2009-2021)</h3>
+          <h3>Between (2009-2022)</h3>
           <p className="para">
             Crime analysis ranging from 2009 to 2022, which contains different types of crimes.
           </p>
