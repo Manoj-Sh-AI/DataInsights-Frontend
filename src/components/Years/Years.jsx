@@ -21,7 +21,7 @@ const Years = () => {
             Crime analysis ranging of 2022, which contains different types of crimes.
           </p>
           <Link to="/SecondOption" className="new_btn">Learn More</Link>
-          <p><br /></p>
+          <p><br /><br /></p>
         </div>
         <div className="year">
           <h3>World Crime Index</h3>
@@ -29,7 +29,7 @@ const Years = () => {
             World crime index ranging from 1990 to 2022 Century.
           </p>
           <Link to="/ThirdOption" className="new_btn">Learn More</Link>
-          <p><br /></p>
+          <p><br /><br /></p>
         </div>
       </div>
     </div>
